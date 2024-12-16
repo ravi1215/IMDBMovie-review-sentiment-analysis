@@ -33,7 +33,7 @@ def predictive_system(review):
     plt.title("Sentiment Analysis")
     plt.ylim(0, 1)
     
-    plt_file = "/content/prediction_plot.png"
+    plt_file = "prediction_plot.png"
     plt.savefig(plt_file)
     plt.close()
 
