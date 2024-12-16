@@ -7,13 +7,13 @@ The sentiment analysis model is based on classification and utilizes one-hot enc
 
 The project consists of two main folders:
 
-1. **imdb** - Contains:
+1. **Model-Testing** - Contains:
     - `imdb_sa.ipynb`: Jupyter notebook for training the sentiment analysis model.
     - `imdb_dataset.csv`: Dataset used for training the model.
     - `model.h5`: Trained deep learning model.
     - `tokenizer.pkl`: Tokenizer used for text processing.
     
-2. **movie_sentiment_analysis** - Contains:
+2. **Web-Application-Deployment** - Contains:
     - `app.py`: Python script to launch the Gradio web interface for the sentiment analysis app.
     - `requirements.txt`: Python dependencies for the application.
     - `model.h5`: Trained model file.
